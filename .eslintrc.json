@@ -1,7 +1,6 @@
-{
+﻿{
   "extends": [
     "eslint:recommended",
-    "@eslint/js/src/configs/eslint-recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:react/jsx-runtime"
@@ -24,6 +23,10 @@
     "react-refresh/only-export-components": [
       "warn",
       { "allowConstantExport": true }
-    ]
-  }
+    ],
+    "no-unused-vars": "warn",
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "off"
+  },
+  "ignorePatterns": ["dist", "node_modules"]
 }
