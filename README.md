@@ -6,7 +6,7 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
 
 ## 🌐 Live Demo
 
-**🔗 [View Live Portfolio](https://your-portfolio-name.vercel.app)**
+**🔗 [View Live Portfolio](https://my-react-portfolio-rose.vercel.app/)**
 
 ### 📱 Try It Out
 
