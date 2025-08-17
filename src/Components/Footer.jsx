@@ -66,24 +66,24 @@ function Footer() {
             {/* Right: Quick Links */}
             <div className="text-center md:text-right">
               <div className="flex flex-col space-y-2">
-                <a
-                  href="/projects"
+                <Link
+                  to="/projects"
                   className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm"
                 >
                   Projects
-                </a>
-                <a
-                  href="/about"
+                </Link>
+                <Link
+                  to="/about"
                   className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm"
                 >
                   About
-                </a>
-                <a
-                  href="/contact"
+                </Link>
+                <Link
+                  to="/contact"
                   className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>
